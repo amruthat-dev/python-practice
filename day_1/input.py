@@ -1,0 +1,7 @@
+name = input("Enter your name:")
+print("hello",name)
+age = input("Enter your age:")
+print(f"{name} your age is {age}")
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
+print(f"sum of {x} and {y} is {x + y}.")

@@ -1,0 +1,8 @@
+fruits = ("apple","banana", "Mango")
+numbers = (10,20,30,40,50)
+subjects = ("python","biology","ADA","DBMS")
+student = ("amrutha",21,"CSE","4th sem")
+print(fruits)
+print(numbers)
+print(subjects)
+print(student)
