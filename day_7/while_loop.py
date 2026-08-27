@@ -56,3 +56,9 @@ while i<= number:
     i += 1
 
 print(f"Factorial of {number} is: {factorial}")
+
+
+while True:
+    num = int(input("Enter a number: "))
+    if num == 0:
+       break
