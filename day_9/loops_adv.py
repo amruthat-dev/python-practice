@@ -5,7 +5,6 @@ total = 0
 for num in list:
     total += num
 
-
 print(f"Sum of all numbers in the list is: {total}")
 
 
@@ -18,7 +17,6 @@ print(f"Doubled list is: {dl}")
 
 
 #looping through a dictionary
-
 student_marks = {"John": 85, "Alice": 92, "Bob": 78, "Eve": 90}
 for student in student_marks.keys():
     print(student)
