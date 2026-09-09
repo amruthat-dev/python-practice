@@ -15,7 +15,6 @@ for num in l:
     dl.append(num * 2)
 print(f"Doubled list is: {dl}")
 
-
 #looping through a dictionary
 student_marks = {"John": 85, "Alice": 92, "Bob": 78, "Eve": 90}
 for student in student_marks.keys():
