@@ -25,3 +25,31 @@ for marks in student_marks.values():
     
 for student, marks in student_marks.items():
     print(f"{student} --- {marks}")
+
+
+#using enumerate to get index and value
+students = ["John", "Alice", "Bob", "Eve"]
+for index, student in enumerate(students):
+    print(f"Index: {index}, student: {student}")
+
+
+students = ["John", "Alice", "Bob", "Eve"]
+marks = [85, 92, 78, 90]
+
+student_marks = {}
+
+for i in range(len(students)):
+    student_marks[students[i]] = marks[i]
+
+print(student_marks)
+
+
+#creating a list of squares using list comprehension
+#exp for item in collection
+l = [1, 2, 3, 4, 5]
+dl = [num ** 2 for num in l]
+print(dl)                   
+
+l = [x for x in range(1,101)]
+dl = [x**2 for x in l]
+print(dl)
