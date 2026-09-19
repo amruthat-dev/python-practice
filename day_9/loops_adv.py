@@ -50,6 +50,6 @@ l = [1, 2, 3, 4, 5]
 dl = [num ** 2 for num in l]
 print(dl)                   
 
-l = [x for x in range(1,101)]
-dl = [x**2 for x in l]
-print(dl)
+
+
+
