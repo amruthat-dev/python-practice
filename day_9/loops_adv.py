@@ -48,7 +48,8 @@ print(student_marks)
 #exp for item in collection
 l = [1, 2, 3, 4, 5]
 dl = [num ** 2 for num in l]
-print(dl)                   
+print(dl)
+
 
 
 
